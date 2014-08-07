@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [18:44:36] [main/INFO]: Setting user: ForgeDevName
 [18:44:37] [Client thread/INFO]: LWJGL Version: 2.9.1
 [18:44:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
@@ -9,3 +10,75 @@
 [18:44:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
 [18:44:43] [Sound Library Loader/INFO]: Sound engine started
 [18:44:46] [Client thread/INFO]: Stopping!
+=======
+[17:38:06] [main/INFO]: Setting user: ForgeDevName
+[17:38:07] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:38:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[17:38:12] [Sound Library Loader/INFO]: Sound engine started
+[17:38:23] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:38:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:38:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[17:38:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:38:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:38:25] [Sound Library Loader/INFO]: Sound engine started
+[17:38:37] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:38:37] [Server thread/INFO]: Generating keypair
+[17:38:37] [Server thread/INFO]: Converting map!
+[17:38:37] [Server thread/INFO]: Scanning folders...
+[17:38:37] [Server thread/INFO]: Total conversion count is 0
+[17:38:38] [Server thread/INFO]: Preparing start region for level 0
+[17:38:39] [Server thread/INFO]: Changing view distance to 8, from 10
+[17:38:40] [Server thread/INFO]: ForgeDevName[local:E:b68319db] logged in with entity id 24 at (371.5, 4.0, -2087.5)
+[17:38:40] [Server thread/INFO]: ForgeDevName joined the game
+[17:38:46] [Server thread/INFO]: Saving and pausing game...
+[17:38:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:38:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:38:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:38:55] [Client thread/INFO]: Selecting effect minecraft:shaders/post/notch.json
+[17:39:02] [Server thread/INFO]: ForgeDevName has just earned the achievement [Taking Inventory]
+[17:39:02] [Client thread/INFO]: [CHAT] ForgeDevName has just earned the achievement [Taking Inventory]
+[17:39:08] [Server thread/INFO]: Saving and pausing game...
+[17:39:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:39:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:39:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:39:10] [Client thread/INFO]: Selecting effect minecraft:shaders/post/fxaa.json
+[17:39:21] [Server thread/INFO]: Saving and pausing game...
+[17:39:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:39:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:39:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:39:23] [Client thread/INFO]: Selecting effect minecraft:shaders/post/art.json
+[17:39:23] [Client thread/WARN]: Could not find uniform named LumaRamp in the specified shader program.
+[17:39:37] [Server thread/INFO]: Saving and pausing game...
+[17:39:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:39:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:39:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:39:49] [Server thread/INFO]: Saving and pausing game...
+[17:39:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:39:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:39:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:39:51] [Client thread/INFO]: Selecting effect minecraft:shaders/post/bumpy.json
+[17:39:51] [Client thread/WARN]: Could not find uniform named OutSize in the specified shader program.
+[17:40:09] [Server thread/INFO]: Saving and pausing game...
+[17:40:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:40:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:40:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:40:11] [Client thread/INFO]: Selecting effect minecraft:shaders/post/blobs2.json
+[17:40:15] [Client thread/INFO]: Selecting effect minecraft:shaders/post/pencil.json
+[17:40:17] [Client thread/INFO]: Selecting effect minecraft:shaders/post/color_convolve.json
+[17:40:29] [Server thread/INFO]: Saving and pausing game...
+[17:40:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:40:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:40:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:40:32] [Server thread/INFO]: Saving and pausing game...
+[17:40:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:40:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:40:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:40:33] [Client thread/INFO]: Selecting effect minecraft:shaders/post/deconverge.json
+[19:32:29] [Client thread/INFO]: Stopping!
+[19:32:29] [Server thread/INFO]: Stopping server
+[19:32:29] [Server thread/INFO]: Saving players
+[19:32:29] [Server thread/INFO]: Saving worlds
+[19:32:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:32:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:32:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+>>>>>>> origin/master

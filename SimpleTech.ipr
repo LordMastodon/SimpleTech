@@ -59,6 +59,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
   </component>
+<<<<<<< HEAD
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -100,5 +101,7 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> origin/master
 </project>
 

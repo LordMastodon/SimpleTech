@@ -14,4 +14,8 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
 
 BUILD SUCCESSFUL
 
+<<<<<<< HEAD
 Total time: 28.128 secs
+=======
+Total time: 16.058 secs
+>>>>>>> origin/master
