@@ -2,7 +2,6 @@ package lordmastodon.simpletech.block;
 
 import java.util.Random;
 
-import lordmastodon.simpletech.tileentity.TileEntityAlloyFurnace;
 import lordmastodon.simpletech.SimpleTech;
 import lordmastodon.simpletech.tileentity.TileEntityMacerator;
 import net.minecraft.block.Block;
@@ -32,7 +31,9 @@ public class Macerator extends BlockContainer {
     @SideOnly(Side.CLIENT)
     private IIcon iconBack;
     @SideOnly(Side.CLIENT)
-    private IIcon iconSides;
+    private IIcon iconRightSide;
+    @SideOnly(Side.CLIENT)
+    private IIcon iconLeftSide;
     @SideOnly(Side.CLIENT)
     private IIcon iconTop;
     @SideOnly(Side.CLIENT)
@@ -56,7 +57,8 @@ public class Macerator extends BlockContainer {
     public void registerBlockIcons(IIconRegister icon) {
         iconTop = icon.registerIcon(SimpleTech.MODID + ":MaceratorTop");
         iconBottom = icon.registerIcon(SimpleTech.MODID + ":MaceratorBottom");
-        iconSides = icon.registerIcon(SimpleTech.MODID + ":MaceratorSides");
+        iconRightSide = icon.registerIcon(SimpleTech.MODID + ":MaceratorRightSide");
+        iconLeftSide = icon.registerIcon(SimpleTech.MODID + ":MaceratorLeftSide");
         iconBack = icon.registerIcon(SimpleTech.MODID + ":MaceratorBack");
         iconFront = icon.registerIcon(SimpleTech.MODID + ":MaceratorFront");
     }
@@ -70,10 +72,12 @@ public class Macerator extends BlockContainer {
             return iconTop;
         } else if (side == 2) {
             return iconFront;
-        } else if (side == 4) {
+        } else if (side == 3) {
             return iconBack;
+        } else if (side == 5){
+            return iconRightSide;
         } else {
-            return iconSides;
+        	return iconLeftSide;
         }
     }
 
@@ -253,9 +257,9 @@ public class Macerator extends BlockContainer {
 
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ)
     {
-        if (!world.isRemote) {
-            FMLNetworkHandler.openGui(player, SimpleTech.instance, 1, world, x, y, z);
-        }
-        return true;
+      if (!world.isRemote) {
+        FMLNetworkHandler.openGui(player, SimpleTech.instance, 1, world, x, y, z);
+      }
+      return true;
     }
 }

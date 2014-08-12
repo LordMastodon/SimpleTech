@@ -22,13 +22,13 @@ public class MaceratedPowder extends Item {
         return maceratingBase;
     }
 
-    public static int j = 0;
+    public int j = 0;
 
-    public static Map maceratingList = new HashMap();
+    public Map maceratingList = new HashMap();
 
-    public static String[] oreNames = OreDictionary.getOreNames();
+    public String[] oreNames = OreDictionary.getOreNames();
 
-    public static void checkForOres(ItemStack is) {
+    public void checkForOres(ItemStack is) {
         for (int i = 0; i < oreNames.length; i++) {
             j = i;
 
@@ -42,9 +42,9 @@ public class MaceratedPowder extends Item {
         }
     }
 
-    public static Item[] powders = new Item[j];
+    public Item[] powders = new Item[j];
 
-    public static void addNewPowdersAndRecipes() {
+    public void addNewPowdersAndRecipes() {
 
         for (int i = 0; i < powders.length; i++) {
             GameRegistry.registerItem(powders[i], "Powdered" + powders[i].getUnlocalizedName());
@@ -54,11 +54,11 @@ public class MaceratedPowder extends Item {
 
     }
 
-    public static void addNewBlockRecipe(ArrayList<ItemStack> is, ItemStack is1) {
+    public void addNewBlockRecipe(ArrayList<ItemStack> is, ItemStack is1) {
         maceratingList.put(is, is1);
     }
 
-    public static ItemStack getMaceratingResult(ItemStack is)
+    public ItemStack getMaceratingResult(ItemStack is)
     {
         Iterator iterator = maceratingList.entrySet().iterator();
         Map.Entry entry;
@@ -77,12 +77,12 @@ public class MaceratedPowder extends Item {
         return (ItemStack)entry.getValue();
     }
 
-    private static boolean IReallyDontKnow(ItemStack is, ItemStack is1)
+    private boolean IReallyDontKnow(ItemStack is, ItemStack is1)
     {
         return is1.getItem() == is.getItem() && (is1.getItemDamage() == 32767 || is1.getItemDamage() == is.getItemDamage());
     }
 
-    public static Map getMaceratingList()
+    public Map getMaceratingList()
     {
         return maceratingList;
     }

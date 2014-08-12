@@ -84,9 +84,9 @@ public class TileEntityAlloyFurnace extends TileEntity implements ISidedInventor
     return this.slots.length;
   }
   
-  public ItemStack getStackInSlot(int var1)
+  public ItemStack getStackInSlot(int i)
   {
-    return this.slots[var1];
+    return this.slots[i];
   }
   
   public ItemStack decrStackSize(int i, int j) {

@@ -103,7 +103,7 @@ public class TileEntityMacerator extends TileEntity implements ISidedInventory {
 
     public ItemStack getStackInSlot(int var1)
     {
-        return this.slots[var1];
+      return this.slots[var1];
     }
 
     public ItemStack decrStackSize(int i, int j) {

@@ -44,8 +44,8 @@ public class SimpleTech {
     public static Block WindmillGround;
     public static Block AlloyFurnaceIdle;
     public static Block AlloyFurnaceActive;
-    public static Item failedAlloy;
     public static Block MWCable;
+    public static Item failedAlloy;
     public static Block MaceratorIdle;
     public static Block MaceratorActive;
 
@@ -78,9 +78,6 @@ public class SimpleTech {
         GameRegistry.registerBlock(MaceratorActive, "MaceratorActive");
     	
     	NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
-
-        MaceratedPowder.checkForOres(TileEntityMacerator.slots[0]);
-        MaceratedPowder.addNewPowdersAndRecipes();
     	    	
     }
     
@@ -102,8 +99,6 @@ public class SimpleTech {
     @EventHandler
     public void postInit(FMLPostInitializationEvent e) {
         proxy.renderStuff();
-
-
     }
 
 }
